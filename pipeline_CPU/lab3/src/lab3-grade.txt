@@ -1,0 +1,115 @@
+Section 1: final result comparison
+----------------------------------
+loop1:
+final result (45):
+28 points for "No. of cycle". It is fine if there are 10 less/more cycles. After that, 1 point is lost for each cycle difference. 
+17 points for the rest of the final result.
+
+loop2:
+final-result (5):
+3 points for "No. of cycle".
+2 points for the rest of the final result.
+
+loop3:
+final-result (4):
+2 points for "No. of cycle".
+2 points for the rest of the final result.
+
+hidden1:
+final-result (2):
+1 points for "No. of cycle".
+1 points for the rest of the final result.
+
+hidden2:
+final-result (2)
+1 points for "No. of cycle".
+1 points for the rest of the final result.
+
+Section 1 total points = 58 
+
+------------------------------------
+Section 2: cycle-by-cycle comparison
+------------------------------------
+Cycle-by-cycle policy:
+Results (rdump + mdump) are checked, and they should exactly match the reference sim. For each test input, if the only mismatch is "Instructions Retired", 80% of the points are awarded. If all the cycles match, full points are awarded. If there are mismatches but no more than 2, 90% of the points are awarded. Otherwise, if more than 70% of the cycles match, 70% of the points are awarded. If between 40%-70% of the cycles match, 40% of the points are awarded. Otherwise, no points are awarded.
+
+loop1:
+cycle-by-cycle (35):
+Policy listed above.
+
+loop2:
+cycle-by-cycle (3):
+Policy listed above.
+
+loop3:
+cycle-by-cycle (2):
+Policy listed above.
+
+hidden1:
+cycle-by-cycle (1):
+Policy listed above.
+
+hidden2:
+cycle-by-cycle (1):
+Policy listed above.
+
+Section 2 total points = 42
+lab3-grade.txt
+---------
+Section 1: final result comparison
+Correct test (excluding number of cycles): loop1.x
+Points awarded: 17 / 17
+Correct test (just number of cycles): loop1.x
+Points awarded: 28 / 28
+
+Correct test (excluding number of cycles): loop2.x
+Points awarded: 2 / 2
+Correct test (just number of cycles): loop2.x
+Points awarded: 3 / 3
+
+Correct test (excluding number of cycles): loop3.x
+Points awarded: 2 / 2
+Correct test (just number of cycles): loop3.x
+Points awarded: 2 / 2
+
+Incorrect test (excluding number of cycles): hidden1.x
+Points awarded: 0 / 1
+Incorrect test (just number of cycles): hidden1.x
+Points awarded: 0 / 1
+
+Correct test (excluding number of cycles): hidden2.x
+Points awarded: 1 / 1
+Correct test (just number of cycles): hidden2.x
+Points awarded: 1 / 1
+
+Section 1 score: 56 / 58
+
+Section 2: cycle-by-cycle comparison
+Test: loop1.x
+Reference simulator cycle count: 6031
+Number of matching cycles: 6031
+Points awarded: 35 / 35
+
+Test: loop2.x
+Reference simulator cycle count: 11033
+Number of matching cycles: 11033
+Points awarded: 3 / 3
+
+Test: loop3.x
+Reference simulator cycle count: 363
+Number of matching cycles: 363
+Points awarded: 2 / 2
+
+Test: hidden1.x
+Reference simulator cycle count: 5511
+Number of matching cycles: 5502
+Points awarded: .7 / 1
+
+Test: hidden2.x
+Reference simulator cycle count: 373
+Number of matching cycles: 373
+Points awarded: 1 / 1
+
+Section 2 score: 41.7 / 42
+
+Total score: 97.7 / 100

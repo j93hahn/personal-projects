@@ -1,3 +1,1 @@
-Hi, my name is Josh and here is my personal projects website.
-
-Here, I've uploaded the source code for my various personal projects through the years- I hope you enjoy!
+Hey there! Here are the source codes for some of the personal projects I've worked on in the past couple of years - I hope you enjoy!

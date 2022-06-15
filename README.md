@@ -1,1 +1,3 @@
-Hey there! Here are the source codes for some of the personal projects I've worked on in the past couple of years - I hope you enjoy!
+Hi there! This is my personal repository where I keep the source code for various projects that I've been working on over the past year or so. These projects include building a crossword puzzle game via DrRacket, creating advanced astrophysical plots via Matplotlib and other Python libraries, and developing a fully-functional ARMv8 simulation using the C language.
+
+Feel free to take a look at my code and send me any questions that you may have - thanks!
